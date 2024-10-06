@@ -1,0 +1,106 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+#steps-flowchart {
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+svg {
+    display: block;
+    margin: 0 auto;
+} */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(90deg, #6294e3, #c2e9fb);
+    padding: 20px;
+    text-align: center;
+    color: #1f1d1d;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 5px 0 15px;
+}
+
+section {
+    padding: 30px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.charts-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#steps-flowchart {
+    margin: 30px 0;
+    width: 80%;
+    max-width: 900px;
+    height: 530px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    transition: box-shadow 0.3s ease;
+}
+
+#steps-flowchart:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+svg {
+    display: block;
+    margin: 30px 0;
+}
+
+circle {
+    stroke: #fff;
+    stroke-width:22;
+}
+
+circle:hover {
+    fill: #69a2b9;
+    stroke-width: 10;
+    cursor: pointer;
+}
+
+text {
+    font-size: 14px;
+    fill: #333;
+}
+
+line {
+    stroke-width: 3;
+    stroke: #bbb;
+    transition: stroke-width 0.3s ease;
+}
+
+line:hover {
+    stroke-width: 5;
+    stroke: #77aaff;
+}
+
